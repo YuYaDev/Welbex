@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+    max-width: 1140px;
+    width: 100%;
+    align-items: center;
+}
+
+
+.decorBigRedBall{
+    position: absolute;
+    top: 12%;
+    left: 35%;
+}
+
+.decorMiniRedBall{
+    position: absolute;
+    top: 58%;
+    left: 65%;
+}
+
+.decorPurpleBall{
+    position: absolute;
+    top: 0.5%;
+    left: 66%;
+}
+
+.blurPurpleBall {
+    width: 259px;
+    height: 259px;
+    border-radius: 259px;
+    opacity: 0.5;
+    background: #833AB4;
+    filter: blur(196px);
+    position: absolute;
+    top: -13%;
+    left: 42%;
+}
+
+.blurRedBall {
+    width: 311px;
+    height: 311px;
+    border-radius: 311px;
+    opacity: 0.5;
+    background: #961A1A;
+    filter: blur(196px);
+    position: absolute;
+    top: 22%;
+    left: -9%;
+}
+
+@media (max-width: 1140px) {
+    .container {
+        max-width: 100%;
+    }
+    .decorBigRedBall {
+        display: none;
+    }
+}

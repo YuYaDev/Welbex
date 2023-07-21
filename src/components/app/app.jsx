@@ -3,14 +3,18 @@ import styles from "./app.module.css";
 import AppHeader from '../app-header/app-header';
 import Content from "../content/content";
 import AppFooter from "../app-footer/app-footer";
+import BallBackground from "../ball-background/ball-background";
 
 function App() {
     return (
         <div className={styles.container}>
-            <AppHeader />
-            <Content />
-            <AppFooter />
+            <div style={{position: "relative"}}>
+                <AppHeader />
+                <Content />
+                <AppFooter />
+            </div>
         </div>
+
     );
 }
 
