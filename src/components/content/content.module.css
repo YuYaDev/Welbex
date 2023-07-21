@@ -1,0 +1,14 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: darkblue;
+    max-width: 1140px;
+    width: 100%;
+}
+
+@media (max-width: 1140px) {
+    .container {
+        max-width: 100%;
+        grid-template-columns: 1fr;
+    }
+}
