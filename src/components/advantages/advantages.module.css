@@ -10,16 +10,32 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-row: auto;
+    gap: 30px;
+    padding-top: 40px;
+    padding-bottom: 60px;
 }
 
 .advantageItem {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
+    gap: 6px;
 }
 
 .advantageItemMobile {
     display: flex;
     gap: 5px;
+    align-items: center;
+}
+.advantageTextMobile {
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.65px;
+    text-transform: uppercase;
+    margin: 0;
 }
 
 .button {
@@ -29,13 +45,73 @@
     border: none;
     text-decoration: none;
     color: #E4E5EA;
-    margin-top: 60px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .mobileAdvantages {
     display: none;
     grid-template-columns: 1fr 1fr;
     grid-row: auto;
+    gap: 14px 10px;
+    padding-top: 20px;
+}
+
+.advantagesTitle {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.title{
+    text-align: right;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.titleHighlighted{
+    background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    display: inline;
+    margin: 0;
+}
+
+.itemTitle{
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.itemText{
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: right;
+    margin: 0;
 }
 
 @media (max-width: 1140px) {
@@ -51,5 +127,11 @@
     }
     .mobileAdvantages {
         display: grid;
+    }
+    .advantagesTitle {
+        justify-content: flex-start;
+    }
+    .titleHighlighted {
+        text-transform: lowercase;
     }
 }

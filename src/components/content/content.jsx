@@ -9,9 +9,9 @@ function Content() {
            <div className={styles.container}>
                <div>
                    <BallBackground />
-                   <p>Зарабатывайте <br />больше</p>
-                   <p>с WELBEX</p>
-                   <p>Развиваем и контролируем продажи за вас</p>
+                   <p className={styles.title}>Зарабатывайте <br />больше</p>
+                   <p className={styles.titleLogo}>с WELBEX</p>
+                   <p className={styles.subtitle}>Развиваем и контролируем<br />продажи за вас</p>
                </div>
                <Advantages />
            </div>

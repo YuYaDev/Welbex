@@ -40,8 +40,8 @@ function AppFooter() {
                     <p className={styles.phoneText}>+7 555 555-55-55</p>
                     <ul className={styles.social}>
                         <li><img src={telegramIcon} alt="telegram" /></li>
-                        <li><img src={whatsappIcon} alt="whatsapp" /></li>
                         <li><img src={viberIcon} alt="viber" /></li>
+                        <li><img src={whatsappIcon} alt="whatsapp" /></li>
                     </ul>
                     <p className={styles.navText}>Москва, Путевой проезд 3с1, к 902</p>
 

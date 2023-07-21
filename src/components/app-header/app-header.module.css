@@ -21,10 +21,10 @@
     padding: 0;
 }
 
-.navText {
+.text {
     text-decoration: none;
     color: #E4E5EA;
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -50,8 +50,12 @@
         justify-content: center;
         padding-top: 0;
     }
-    .navText{
+    .navbar{
+        gap: 16px;
+    }
+    .text{
         font-size: 12px;
+        text-transform: uppercase;
     }
     .contacts {
         display: none
