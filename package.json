@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/YuYaDev/Welbex.git"
   },
-  "homepage": "https://github.com/YuYaDev/Welbex",
+  "homepage": "https://yuyadev.github.io/Welbex",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
