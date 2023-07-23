@@ -1,7 +1,6 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 1140px;
     width: 100%;
     overflow: hidden;
     padding-top: 90px;
@@ -38,12 +37,17 @@
 }
 
 
-@media (max-width: 1140px) {
+@media (max-width: 1250px) {
+    .container {
+        padding: 40px 14px 55px;
+    }
+}
+
+@media (max-width: 768px) {
     .container {
         max-width: 100%;
         grid-template-columns: 1fr;
         position: relative;
-        padding: 40px 14px 55px;
     }
     .titleLogo {
         font-size: 36px;

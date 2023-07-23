@@ -8,11 +8,9 @@ import AppFooter from "../app-footer/app-footer";
 function App() {
     return (
         <div className={styles.container}>
-            <div style={{position: "relative"}}>
                 <AppHeader />
                 <Content />
                 <AppFooter />
-            </div>
         </div>
 
     );
