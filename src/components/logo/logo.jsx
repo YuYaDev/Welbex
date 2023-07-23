@@ -1,6 +1,7 @@
 import styles from "./logo.module.css";
 import logo_part1 from "../../images/logo_part1.svg"
 import logo_part2 from "../../images/logo_part2.svg"
+import React from 'react'
 
 function Logo() {
     return (

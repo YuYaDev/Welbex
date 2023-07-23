@@ -2,6 +2,7 @@ import styles from "./app-footer.module.css";
 import telegramIcon from "../../images/telegram-icon.svg";
 import whatsappIcon from "../../images/whatsapp-icon.svg";
 import viberIcon from "../../images/viber-icon.svg";
+import React from 'react'
 
 function AppFooter() {
     return (

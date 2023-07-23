@@ -2,6 +2,7 @@ import styles from "./ball-background.module.css";
 import decorBigRedBall from "../../images/red ball.svg"
 import decorMiniRedBall from "../../images/red ball mini.svg"
 import decorPurpleBall from "../../images/purple ball.svg"
+import React from 'react'
 
 function BallBackground() {
     return (
